@@ -12,5 +12,5 @@ gulp.task 'default', ->
     'src/canvas-text.js'
   ], {base: 'src'})
     .pipe($.concat('chartjs-deps-legacy.js'))
-    #.pipe($.uglify())
+    .pipe($.uglify())
     .pipe(gulp.dest('dist'))
