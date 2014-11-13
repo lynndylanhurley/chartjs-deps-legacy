@@ -1,6 +1,6 @@
 {
   "name": "chartjs-deps-legacy",
-  "version": "0.0.1-alpha1",
+  "version": "0.0.1",
   "dependencies": {},
   "devDependencies": {
     "coffee-script": "^1.8.0",
