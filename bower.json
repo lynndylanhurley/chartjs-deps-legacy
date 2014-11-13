@@ -2,7 +2,7 @@
   "name": "chartjs-deps-legacy",
   "description": "IE8 Dependencies for ChartJS",
   "main": "dist/chartjs-deps-legacy.js",
-  "version": "0.0.1-alpha1",
+  "version": "0.0.1-alpha2",
   "dependencies": {}
 }
 
