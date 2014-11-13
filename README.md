@@ -1,6 +1,6 @@
 # Why?
 
-Because IE8. This repo transmogrifies steps from [this document](https://github.com/danielhusar/Chart.js/blob/master/docs/07-Notes.md) into a simple `bower install`.
+Because IE8. This repo combines steps from [this document](https://github.com/danielhusar/Chart.js/blob/master/docs/07-Notes.md) into a simple `bower install`.
 
 
 # Installation
