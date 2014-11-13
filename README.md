@@ -59,9 +59,15 @@ el.appendChild(c);
 1. pull down this repo
 
    `$ git clone git@github.com:lynndylanhurley/chartjs-deps-legacy.git`
+   
+1. install the build deps
+
+   `$ npm install`
+
 1. navigate to repo root
 
    `$ cd chartjs-deps-legacy`
+
 1. concatenate and minify dependencies from `src` into `dist`
 
    `$ gulp`
