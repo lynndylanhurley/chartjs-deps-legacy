@@ -1,6 +1,8 @@
 # Why?
 
-This package enables the use of [ChartJS](http://www.chartjs.org/) with IE8. This repo combines steps from [this document](https://github.com/danielhusar/Chart.js/blob/master/docs/07-Notes.md) into a simple `bower install`.
+This package enables the use of [ChartJS](http://www.chartjs.org/) with IE8. 
+
+The steps from [this document](https://github.com/danielhusar/Chart.js/blob/master/docs/07-Notes.md) have been combined into a simple `bower install`.
 
 
 # Installation
