@@ -1,6 +1,8 @@
 # Why?
 
-Because IE8. This repo transmogrifies steps from [this document](https://github.com/danielhusar/Chart.js/blob/master/docs/07-Notes.md) into a simple `bower install`.
+This package enables the use of [ChartJS](http://www.chartjs.org/) with IE8. 
+
+The steps from [this document](https://github.com/danielhusar/Chart.js/blob/master/docs/07-Notes.md) have been combined into a simple `bower install`.
 
 
 # Installation
@@ -11,6 +13,7 @@ $ bower install chartjs-deps-legacy --save
 
 # Usage
 
+### html
 ~~~html
 <!--[if lte IE 8]>
 <script src="/bower_components/chartjs-deps-legacy/dist/chartjs-deps-legacy.js"></script>
@@ -19,6 +22,7 @@ $ bower install chartjs-deps-legacy --save
 <script src="/bower_components/chartjs/Chart.js"></script>
 ~~~
 
+### javascript
 ~~~javascript
 // find the target element
 var el = document.getElementById('target');
@@ -57,9 +61,15 @@ el.appendChild(c);
 1. pull down this repo
 
    `$ git clone git@github.com:lynndylanhurley/chartjs-deps-legacy.git`
+   
+1. install the build deps
+
+   `$ npm install`
+
 1. navigate to repo root
 
    `$ cd chartjs-deps-legacy`
+
 1. concatenate and minify dependencies from `src` into `dist`
 
    `$ gulp`
