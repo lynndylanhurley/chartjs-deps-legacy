@@ -2,7 +2,7 @@
   "name": "chartjs-deps-legacy",
   "description": "IE8 Dependencies for ChartJS",
   "main": "dist/chartjs-deps-legacy.js",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha1",
   "dependencies": {},
   "ignore": ["src", "gulpfile.coffee", "gulpfile.js", "test", "node_modules"]
 }

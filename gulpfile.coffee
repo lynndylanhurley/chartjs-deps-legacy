@@ -8,8 +8,8 @@ gulp.task 'default', ->
 
   gulp.src([
     'src/excanvas.js'
-    'src/optimizer-normal-normal.js'
     'src/canvas-text.js'
+    'src/optimizer-normal-normal.js'
   ], {base: 'src'})
     .pipe($.concat('chartjs-deps-legacy.js'))
     .pipe($.uglify())
